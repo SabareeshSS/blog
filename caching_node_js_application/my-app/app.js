@@ -11,7 +11,20 @@ app.set('view engine', 'ejs');
 
 app.use(cookieParser());
 app.use(express.static(__dirname + '/public'));
-app.use(tml.init("ff08ec9c583a98d002f23e0bad46ca24f103fb54b87517d28c56791233618a4c"));
+
+app.use(tml.init("ff08ec9c583a98d002f23e0bad46ca24f103fb54b87517d28c56791233618a4c", {
+  cache: {
+    adapter: 'memcache',
+    hosts: ["localhost:11211"],
+    namespace: "my_app",
+    invalidate: {
+      auth: function(req) {
+        return false;
+      }
+    }
+  }
+
+}));
 
 app.use('/', routes);
 
