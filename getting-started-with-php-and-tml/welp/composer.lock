@@ -1,0 +1,74 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "9b3e234dda7fa63738a32b89604569d7",
+    "packages": [
+        {
+            "name": "translationexchange/tml",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/translationexchange/tml-php.git",
+                "reference": "a4b9bbc4c06f545878a84add96eb8978c8913632"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/translationexchange/tml-php/zipball/a4b9bbc4c06f545878a84add96eb8978c8913632",
+                "reference": "a4b9bbc4c06f545878a84add96eb8978c8913632",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "tml": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Berkovich",
+                    "email": "michael@translationexchange.com",
+                    "homepage": "http://translationexchange.com"
+                }
+            ],
+            "description": "Translation Markup Language for PHP",
+            "homepage": "http://welcome.translationexchange.com",
+            "keywords": [
+                "TML",
+                "i18n",
+                "internationalization",
+                "l10n",
+                "localization",
+                "t9n",
+                "tr8n",
+                "translation",
+                "translation markup language"
+            ],
+            "time": "2015-06-18 03:39:01"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "translationexchange/tml": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}

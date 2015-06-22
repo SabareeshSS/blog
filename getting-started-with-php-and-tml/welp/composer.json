@@ -1,0 +1,11 @@
+{
+    "name": "samples/welp",
+    "description": "Sample application",
+    "keywords": ["sample", "tml", "welp"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.3.0",
+        "translationexchange/tml": "dev-master"
+    }
+}
