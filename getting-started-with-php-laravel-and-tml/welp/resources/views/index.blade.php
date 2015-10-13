@@ -71,7 +71,7 @@
                                 <div class="media-object media-img-sm"></div>
                             </a>
                             <div class="media-body">
-                                <p>{!! tr($restaurant["last_comment"]) !!}</p>
+                                <p>{!! trh($restaurant["last_comment"]) !!}</p>
                             </div>
                         </div>
                     </div>
